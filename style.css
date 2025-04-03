@@ -10,11 +10,20 @@ body {
 }
 
 header {
-    background-color: #1e2861;
-    color: #fff;
+    background-image: url(backgroundheader.png);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: repeat;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
     text-align: center;
     padding: 1em 0;
     width: 100%;
+    height: 100px;
 }
 
 main {
@@ -69,7 +78,7 @@ main {
 }
 
 #new-card-button {
-    background-color: #008CBA;
+    background-color: hwb(177 20% 0%);
     color: white;
     padding: 10px 15px;
     border: none;
@@ -78,11 +87,11 @@ main {
 }
 
 #new-card-button:hover {
-    background-color: #72f038;
+    background-color: #fffc3b;
 }
 
 footer {
-    background-color: #142d74;
+    background-color: #085d72;
     color: #fff;
     text-align: center;
     padding: 1em 0;
