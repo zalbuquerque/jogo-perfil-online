@@ -16,19 +16,25 @@
     <main>
         <div id="game-database">
             <div id="card">
-                <div id="category">Categoria</div>
-                <div id="answer">????</div>
-                <ul id="clues">
-                    
-                </ul>
+                <div id="categoryTitle">Categoria</div>
+                <div id="category"></div>
+                <div id="answerTitle">Resposta</div>
+                <div id="answer"></div>
+                <div id="clues">
+                    <div id="cluesDisplay"></div>
+                </div>
             </div>
 
-            <button id="new-card-button">Nova Carta</button>
+            <button onclick="fetchData()">Nova Carta</button>
+        </div>
+        <div id="loading">
+            <div class="spinner"></div>
+            <p>Carregando...</p>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Perfil Game</p>
+        <h5>&copy; 2025 Perfil Game</h5>
     </footer>
 
     <script src="app.js"></script>
