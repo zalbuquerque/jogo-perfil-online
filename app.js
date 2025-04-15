@@ -4,7 +4,7 @@ async function fetchData() {
     const answerElement = document.getElementById('answer');
     const cluesElement = document.getElementById('clues');
     try {
-        const response = await fetch("https://chronic-tansy-viniciusdsouza-labs-254a6bc6.koyeb.app/get-card")
+        const response = await fetch("https://jogo-perfil-api.onrender.com/get-card")
 
         loadingElement.style.display = 'block';
 
